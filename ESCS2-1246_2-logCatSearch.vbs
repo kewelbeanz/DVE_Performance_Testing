@@ -31,7 +31,7 @@ lengthy=Round(Timer-dtmStartTime,2)
 
 ' Setup for saving the time
 Dim output,fileSystemObject, filePath
-filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1238_CAIM_tests\logSearch.txt"
+filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1246_IM_tests2\logCatSearch.txt"
 Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
 output.WriteLine(lengthy)
