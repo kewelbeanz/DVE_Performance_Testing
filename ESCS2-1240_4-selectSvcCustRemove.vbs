@@ -30,5 +30,5 @@ Dim output,fileSystemObject, filePath
 filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1240_System_Services\selectSvcCustAdd.txt"
 Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
-output.WriteLine(lengthy)
+output.WriteLine("Modify privileges select System Services customer remove took "+lengthy+" seconds.")
 output.Close
