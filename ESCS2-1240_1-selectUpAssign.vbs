@@ -8,14 +8,14 @@ Set WshShell=WScript.CreateObject("WScript.Shell")
 dmlssStartTime=Timer
 
 ' Move to System Services
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
+WshShell.SendKeys "{DOWN 8}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
 
 WshShell.SendKeys "{ENTER}"
 
@@ -35,23 +35,23 @@ output.Close
 WshShell.SendKeys "{%N}"
 
 ' Go to User Priv Assign
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{DOWN}"
-WshShell.SendKeys "{ENTER}"
+WshShell.SendKeys "{DOWN 16}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{DOWN}"
+' WshShell.SendKeys "{ENTER}"
 
 ' lengthy contains time as determined by Timer
 Dim lengthy2
