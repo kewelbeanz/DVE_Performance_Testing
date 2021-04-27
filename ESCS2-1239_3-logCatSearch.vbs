@@ -1,4 +1,4 @@
-' Log catalog in catalog search
+' Log catalog in catalog search in CAIM module
 
 '  Starting from Main Catalog Search screen
 ' Create WScript Shell Object to access filesystem.
@@ -33,5 +33,5 @@ Dim output,fileSystemObject, filePath
 filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1238_CAIM_tests\logSearch.txt"
 Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
-output.WriteLine(lengthy)
+output.WriteLine("Log catalog in CAIM catalog search took "+lengthy+" seconds.")
 output.Close
