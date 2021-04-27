@@ -38,5 +38,5 @@ Dim output,fileSystemObject, filePath
 filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1238_CAIM_tests\catSearch.txt"
 Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
-output.WriteLine("Catalog Search i CAIM module took "+lengthy+" seconds.")
+output.WriteLine("Catalog Search i IM module took "+lengthy+" seconds.")
 output.Close
