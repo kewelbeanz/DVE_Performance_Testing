@@ -35,7 +35,7 @@ Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
 
 ' Write the time contained in the `lengthy` object to the TextFile found at the filePath destination
-output.WriteLine(lengthy)
+output.WriteLine("Logging into DMLSS took "+lengthy+" seconds.")
 
 ' Close the filesystem
 output.Close
