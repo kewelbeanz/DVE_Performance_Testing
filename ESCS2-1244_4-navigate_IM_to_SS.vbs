@@ -29,5 +29,5 @@ Dim output2,fileSystemObject2, filePath2
 filePath2="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1244_Nav_btw_modules\IMToSS.txt"
 Set fileSystemObject2=CreateObject("Scripting.FileSystemObject")
 Set output2=fileSystemObject2.CreateTextFile(filePath2, true)
-output2.WriteLine(lengthy2)
+output2.WriteLine("IM to System Services took"+lengthy2+" seconds.")
 output2.Close
