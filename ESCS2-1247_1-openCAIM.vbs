@@ -22,7 +22,7 @@ Dim output,fileSystemObject, filePath
 filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1247_CAIM_tests2\startCAIM.txt"
 Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
-output.WriteLine("Duration of time from user submitting MTF catalog search on "Mask" to complete results display was "+lengthy+" seconds.")
+output.WriteLine("Duration of time from user submitting CAIM MTF catalog search on 'Mask' to complete results display was "+lengthy+" seconds.")
 output.Close
 
 
