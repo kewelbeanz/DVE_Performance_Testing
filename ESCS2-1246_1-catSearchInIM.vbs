@@ -28,5 +28,5 @@ Dim output2,fileSystemObject2, filePath2
 filePath2="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1246_IM_Tests2\catSearchInIM.txt"
 Set fileSystemObject2=CreateObject("Scripting.FileSystemObject")
 Set output2=fileSystemObject2.CreateTextFile(filePath2, true)
-output2.WriteLine(lengthy2)
+output2.WriteLine("Catalog Search in IM Module took "+lengthy2+" seconds.")
 output2.Close
