@@ -18,5 +18,5 @@ Dim output,fileSystemObject, filePath
 filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1247_CAIM_tests2\custSel.txt"
 Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
-output.WriteLine(lengthy)
+output.WriteLine("Enter Customer in CAIM took "+lengthy+" seconds.")
 output.Close
