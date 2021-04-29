@@ -1,4 +1,4 @@
-' Log catalog in catalog search
+' Log catalog in IM catalog search
 
 '  Starting from Main Catalog Search screen
 ' Create WScript Shell Object to access filesystem.
@@ -34,5 +34,5 @@ Dim output,fileSystemObject, filePath
 filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1246_IM_tests2\logCatSearch.txt"
 Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
-output.WriteLine(lengthy)
+output.WriteLine("Log catalog in IM catalog search took "+lengthy+" seconds.")
 output.Close
