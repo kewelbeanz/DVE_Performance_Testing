@@ -1,4 +1,4 @@
-'Sourced Catalog in Catalog Search
+' Sourced Catalog in  IM Catalog Search
 
 ' Create WScript Shell Object to access filesystem.
 Set WshShell = WScript.CreateObject("WScript.Shell")
@@ -34,5 +34,5 @@ Dim output,fileSystemObject, filePath
 filePath="C:\Users\VBASPTHILDER\Documents\PerformanceTesting\ESCS2-1246_IM_tests2\sourcedCatLogSearch.txt"
 Set fileSystemObject=CreateObject("Scripting.FileSystemObject")
 Set output=fileSystemObject.CreateTextFile(filePath, true)
-output.WriteLine(lengthy)
+output.WriteLine("Log catalog in IM catalog search took "+lengthy+" seconds.")
 output.Close
